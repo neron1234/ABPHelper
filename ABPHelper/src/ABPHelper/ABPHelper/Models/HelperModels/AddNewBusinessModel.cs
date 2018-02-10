@@ -15,6 +15,7 @@ namespace ABPHelper.Models.HelperModels
 
         public string ViewFolder { get; set; }
 
+        public string ABPReference { get; set; }
         public IEnumerable<AddNewBusinessViewModel.ViewFileViewModel> ViewFiles { get; set; }
     }
 }

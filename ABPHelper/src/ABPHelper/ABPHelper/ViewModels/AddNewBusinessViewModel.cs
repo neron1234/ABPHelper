@@ -92,6 +92,7 @@ namespace ABPHelper.ViewModels
                     ServiceInterfaceName = $"I{BusinessName}AppService";
                     ServiceName = $"{BusinessName}AppService";
                     ViewFolder = $@"App\Main\views\{ServiceFolder.LowerFirstChar()}";
+                    
                 }
             }
         }
@@ -183,7 +184,6 @@ namespace ABPHelper.ViewModels
                 }
             }
         }
-
         #endregion
 
         #region ViewFiles 属性
